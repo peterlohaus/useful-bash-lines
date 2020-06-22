@@ -1,0 +1,17 @@
+#!/bin/bash
+
+END='\033[0m'         # Text Reset
+HEADING='\033[1;37m'       # White
+ERROR='\033[1;31m'         # Red
+SUCCESS='\033[1;32m'       # Green
+QUESTION='\033[1;34m'        # Blue
+CHOICE='\033[0;36m'         # Blue
+
+printf "${HEADING}The first chapter${NC}\n"
+printf "${ERROR}An error occured!${NC}\n"
+printf "${SUCCESS}The operation was successful!${NC}\n"
+printf "${QUESTION}The operation was successful!${NC}\n"
+printf "${CHOICE}The operation was successful!${NC}\n"
+
+echo # Empty line 1x
+echo -e '\n' # Empty line 2x
